@@ -1,0 +1,11 @@
+Algorítmo que imprime apenas vogais:
+def imprimir_vogais(texto):
+    # Definindo um conjunto de vogais
+    vogais = "aeiouAEIOU"
+    # Filtrando e imprimindo apenas as vogais do texto
+    resultado = ''.join([char for char in texto if char in vogais])
+    print(resultado)
+
+# Exemplo de uso
+texto = input("O Flamengo é seleção.")
+imprimir_vogais(texto)
